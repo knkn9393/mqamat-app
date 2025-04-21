@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#fdf6e3"
+    android:padding="16dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center_horizontal">
+
+        <ImageView
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:src="@drawable/icon"
+            android:layout_marginBottom="12dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تطبيق مقامات"
+            android:textSize="24sp"
+            android:textStyle="bold"
+            android:textColor="#8B4513"
+            android:layout_marginBottom="16dp" />
+
+        <Button
+            android:id="@+id/theory_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الشروحات النظرية"
+            android:backgroundTint="#DAA520"
+            android:textColor="#fff"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/audio_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="أمثلة صوتية"
+            android:backgroundTint="#DAA520"
+            android:textColor="#fff"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/test_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="اختبار"
+            android:backgroundTint="#DAA520"
+            android:textColor="#fff"
+            android:layout_marginBottom="10dp" />
+
+        <Button
+            android:id="@+id/rating_button"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="قيّم التطبيق"
+            android:backgroundTint="#A0522D"
+            android:textColor="#fff"
+            android:layout_marginBottom="16dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="إعداد و تصميم : عبد الرحمن حسان حنو\nabdulrahman.hanno@gmail.com\n+963 933 297 859"
+            android:textSize="12sp"
+            android:gravity="center"
+            android:textColor="#000000"
+            android:layout_marginTop="20dp" />
+
+    </LinearLayout>
+</ScrollView>
