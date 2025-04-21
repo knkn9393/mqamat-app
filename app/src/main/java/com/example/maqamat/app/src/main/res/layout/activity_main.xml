@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8E1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/appTitle"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="مقامات"
+            android:textSize="32sp"
+            android:textColor="#795548"
+            android:textStyle="bold"
+            android:layout_gravity="center"/>
+
+        <TextView
+            android:id="@+id/appDescription"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="تطبيق لتعليم المقامات الموسيقية العربية مع أمثلة صوتية واختبارات تفاعلية"
+            android:textSize="16sp"
+            android:textColor="#5D4037"
+            android:layout_marginTop="8dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/maqamListButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="دخول إلى المقامات"
+            android:backgroundTint="#A1887F"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="24dp"/>
+
+        <Button
+            android:id="@+id/quizButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="اختبار معلوماتك"
+            android:backgroundTint="#8D6E63"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"/>
+
+        <Button
+            android:id="@+id/rateButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="قيّم التطبيق"
+            android:backgroundTint="#6D4C41"
+            android:textColor="#FFFFFF"
+            android:layout_marginTop="16dp"/>
+
+        <TextView
+            android:id="@+id/footerText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="إعداد وتصميم: عبد الرحمن حسان حنو\nrahman.hano@gmail.com\n+963 937 139 646"
+            android:textSize="14sp"
+            android:textColor="#795548"
+            android:layout_marginTop="24dp"
+            android:layout_gravity="center"
+            android:textAlignment="center" />
+
+    </LinearLayout>
+</ScrollView>
