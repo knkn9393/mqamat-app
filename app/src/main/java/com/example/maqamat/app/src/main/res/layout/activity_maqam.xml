@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFF8E1">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/maqamTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="اسم المقام"
+            android:textSize="24sp"
+            android:textColor="#6D4C41"
+            android:textStyle="bold"
+            android:gravity="center"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:id="@+id/maqamDescription"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="الوصف النظري للمقام"
+            android:textSize="18sp"
+            android:textColor="#4E342E"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:id="@+id/maqamScale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="سلم المقام"
+            android:textSize="18sp"
+            android:textColor="#4E342E"
+            android:paddingBottom="12dp" />
+
+        <TextView
+            android:id="@+id/maqamTransition"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="طرق الانتقال إلى المقامات الأخرى"
+            android:textSize="18sp"
+            android:textColor="#4E342E"
+            android:paddingBottom="12dp" />
+
+        <Button
+            android:id="@+id/playExample1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تشغيل المثال الصوتي الأول"
+            android:backgroundTint="#A1887F"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/playExample2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تشغيل المثال الصوتي الثاني"
+            android:backgroundTint="#A1887F"
+            android:textColor="#FFFFFF"
+            android:layout_marginBottom="8dp" />
+
+        <Button
+            android:id="@+id/playScale"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="تشغيل سلم المقام"
+            android:backgroundTint="#A1887F"
+            android:textColor="#FFFFFF" />
+    </LinearLayout>
+</ScrollView>
